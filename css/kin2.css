@@ -1,0 +1,12 @@
+body{
+    background-color:crimson;
+    background-image: url('nature2.jpg');
+    
+}
+.kio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}

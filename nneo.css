@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url();
+}
+.main{
+    width: 100%;
+    
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}

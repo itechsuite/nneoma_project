@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(basist.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pla{
+     position: relative;
+     width: 300px;
+     height: 455px;
+     background: rgba(255,255,255,0.15);
+     box-shadow: 20px 0 50px 80px rgba(red,green,blue,0.377);
+     border-radius: 10% 10% 5% 5%;
+}
+.pla.img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.pla.im,img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10% 10% 0 0;
+}
+audio{
+    position: absolute;
+    
+}

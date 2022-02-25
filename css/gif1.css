@@ -1,0 +1,110 @@
+
+
+body{
+    background-image: url();
+    background-color: gray;
+}
+#min{
+    background-image: url(nature2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo b{
+    color: #fff;
+    font-weight: 100;
+    font-size: medium;
+}
+.logo b:hover{
+    color: cornflowerblue;
+    font-weight: 900;
+    font-size: medium;
+    display: block;
+    text-decoration: line-through;
+
+}
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px 25px;
+    transition: 0.3s;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.nav a{
+color: #fff;
+text-decoration: none;
+display: block;
+padding: 40px 25px;
+font-size: 18px;
+line-height: 1
+}
+.nav a:hover{
+    box-shadow: 0-5px 0px #fff inset,50px 0 0 rgba(255,255, 255,0.03) inset;
+    padding: 5px 5px 5px 5px;
+}
+@media (max-width:992px){
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: crimson;
+        padding: 10px 25px;
+        transition: 0.3s;
+        height: 30px;
+        margin-bottom: 50px;
+      
+    }
+    .logo b:hover{
+        color: sienna;
+        font-weight: 900;
+        font-size: medium;
+        display: block;
+        text-decoration: underline
+    
+    }
+    .nav a:hover{
+        box-shadow: 0-5px 0px navy inset,50px 0 0 rgba(255,255, 255,0.03) inset;
+        padding: 5px 5px 5px 5px;
+    }
+
+}
+@media (max-width:600px){
+    header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: blueviolet;
+        padding: 20px 25px;
+        transition: 0.3s;
+        height: 40px;
+        margin-bottom: 50px;
+    }
+    .logo b:hover{
+        color: darksalmon;
+        font-weight: 900;
+        font-size: medium;
+        display: block;
+        text-decoration: underline;
+    
+    }
+    .nav a:hover{
+        box-shadow: 0-5px 0px pink inset,50px 0 0 rgba(255,255, 255,0.03) inset;
+        padding: 5px 5px 5px 5px;
+    }
+}
